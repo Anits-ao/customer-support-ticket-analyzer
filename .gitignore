@@ -1,0 +1,14 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Backup files
+main-backup.py
+
+# Operating system files
+.DS_Store

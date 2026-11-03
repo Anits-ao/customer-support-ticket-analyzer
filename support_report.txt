@@ -1,0 +1,74 @@
+# CUSTOMER SUPPORT TICKET ANALYSIS REPORT
+
+## Project Overview
+
+This project analyzes 4,000 customer support tickets to examine support team performance, response times, ticket resolution records, ticket reopening patterns, and customer satisfaction.
+
+## Dataset Summary
+
+- Total tickets analyzed: 4,000
+- Support queues: 5
+- Priority levels: 4
+- Tickets with recorded first-response times: 3,851
+- Tickets with recorded resolution timestamps: 3,775
+- Tickets with customer satisfaction ratings: 1,226
+
+## Key Performance Findings
+
+| Metric | Result |
+|---|---:|
+| Average customer satisfaction | 3.99/5 |
+| Tickets with recorded resolution timestamps | 94.38% |
+| Ticket reopening rate | 7.12% |
+| Missing first-response times | 149 |
+| Missing CSAT ratings | 2,774 |
+| Valid CSAT ratings | 1,226 |
+| Invalid CSAT ratings | 0 |
+
+## Average First Response Time by Priority
+
+| Priority | Average response time |
+|---|---:|
+| High | 68.46 minutes |
+| Normal | 149.50 minutes |
+| Urgent | 25.11 minutes |
+| Low | 302.62 minutes |
+
+## Customer Satisfaction by Support Queue
+
+| Support queue | Average CSAT |
+|---|---:|
+| Integrations | 4.24/5 |
+| Account | 4.08/5 |
+| Onboarding | 4.01/5 |
+| Billing | 3.95/5 |
+| Technical | 3.85/5 |
+
+## Key Observations
+
+1. The integrations queue recorded the highest average customer satisfaction score at 4.24/5.
+2. The technical queue recorded the lowest average satisfaction score at 3.85/5.
+3. Urgent tickets had the shortest average first-response time, while low-priority tickets had the longest.
+4. Approximately 7.12% of tickets with recognized reopening statuses were reopened.
+5. Customer satisfaction data was missing for 69.35% of all tickets, limiting the coverage of satisfaction-based findings.
+
+## Data Quality and Limitations
+
+- 149 tickets had missing first-response times.
+- 225 tickets had no recorded resolution timestamp.
+- 2,774 tickets had no customer satisfaction rating.
+- All 1,226 recorded CSAT ratings passed the numerical validation check of 1–5.
+- The dataset does not establish why response times, resolution timestamps, or satisfaction ratings are missing.
+- These findings describe patterns in the supplied dataset and should not be interpreted as proof of causal relationships.
+
+## Tools and Technologies
+
+- Python
+- CSV module
+- Visual Studio Code
+
+## Conclusion
+
+The analysis highlights differences in response times and customer satisfaction across support priorities and queues. It also identifies data completeness as an important consideration when evaluating customer support performance.
+
+The findings can help identify areas for further investigation, particularly the technical support queue and the high volume of missing customer satisfaction ratings.
